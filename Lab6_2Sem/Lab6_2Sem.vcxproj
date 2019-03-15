@@ -119,6 +119,12 @@
     <ClInclude Include="Iterator.h" />
     <ClInclude Include="Node.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CircleList.cpp" />
+    <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Program.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
